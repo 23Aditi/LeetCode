@@ -13,6 +13,6 @@ public:
                 else{return count;}
             }
         }
-        return count;
+        return count; //loop finishes without sum exceeding max
     }
 };
