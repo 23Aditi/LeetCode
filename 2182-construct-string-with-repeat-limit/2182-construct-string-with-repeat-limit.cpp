@@ -1,0 +1,59 @@
+class Solution {
+public:
+    bool static Compare(char a , char b){
+        return a>b; // descending order
+    }
+    string repeatLimitedString(string s, int repeatLimit) {
+        string result = "";
+        unordered_map<char,int> um;
+        vector<char> chars;
+        
+        // Count character frequencies
+        for(auto c : s){
+            um[c]++;
+        }
+        
+        // Collect unique characters
+        for(const auto& key: um){
+            chars.push_back(key.first);
+        }
+        
+        // Sort characters in descending order
+        sort(chars.begin(), chars.end(), Compare);
+        
+        for(int i = 0 ; i < chars.size() ; i++){
+            char c = chars[i];
+            
+            while(um[c] > 0){
+                // If we can add all remaining characters within repeat limit
+                if(um[c] <= repeatLimit){
+                    result.append(um[c], c);
+                    um[c] = 0;
+                }
+                else{
+                    // Add characters up to repeat limit
+                    result.append(repeatLimit, c);
+                    um[c] -= repeatLimit;
+                    
+                    // Try to add a different character to break the sequence
+                    bool found = false;
+                    for(int j = i + 1; j < chars.size(); j++){
+                        if(um[chars[j]] > 0){
+                            result += chars[j];
+                            um[chars[j]]--;
+                            found = true;
+                            break;
+                        }
+                    }
+                    
+                    // If no other character can be added, we're done
+                    if(!found){
+                        break;
+                    }
+                }
+            }
+        }
+        
+        return result;
+    }
+};
