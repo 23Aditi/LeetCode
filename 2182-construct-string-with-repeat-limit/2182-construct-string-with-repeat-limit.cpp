@@ -8,24 +8,20 @@ public:
         unordered_map<char,int> um;
         vector<char> chars;
         
-        // Count character frequencies
         for(auto c : s){
             um[c]++;
         }
         
-        // Collect unique characters
         for(const auto& key: um){
             chars.push_back(key.first);
         }
         
-        // Sort characters in descending order
         sort(chars.begin(), chars.end(), Compare);
         
         for(int i = 0 ; i < chars.size() ; i++){
             char c = chars[i];
             
             while(um[c] > 0){
-                // If we can add all remaining characters within repeat limit
                 if(um[c] <= repeatLimit){
                     result.append(um[c], c);
                     um[c] = 0;
