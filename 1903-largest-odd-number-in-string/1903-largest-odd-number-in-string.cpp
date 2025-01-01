@@ -1,9 +1,8 @@
 class Solution {
 public:
     string largestOddNumber(string num) {
-        // if num = "3244555690468" we need to find first odd char from the end
+        // if num = "324455569048" we need to find first odd char from the end
         // this gives us the largest substr as  "324455569"
-        int maxNum = INT_MIN;
         int n = num.size();
         string substr = "";
         int i;
