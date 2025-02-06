@@ -13,7 +13,8 @@ public:
         for(auto p : um){
             if(p.second == 2){ct++;}
             if(p.second>2){
-                ct+=p.second;
+                int x = ((p.second)*(p.second-1))/2;
+                ct+=x;
             }
         }
     //count 3 ; 3 pairs a , b ; a , c ; c, b
