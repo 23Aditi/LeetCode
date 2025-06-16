@@ -1,15 +1,18 @@
 class Solution {
 public:
-    bool check(vector<int>& arr) {
+    bool check(vector<int>& nums) {
         int flag = 0;
-        int n = arr.size();
-        for(int i = 0 ; i < n-1 ; i++){
-            if(flag == 2){return false;}
-            if(arr[i]>arr[i+1]){
-                flag++;
-            }
+        int n = nums.size();
+        if(n<=1){return true;}
+        else{
+            flag += nums[0]<nums[n-1];
         }
-        if(arr[0]<arr[n-1]){flag++;}
-        return flag!=2;
+        for(int i = 0 ; i < n - 1 ; i++){
+            if(nums[i]>nums[i+1]){
+                flag ++;
+            }
+            if(flag>=2){return false;}
+        }
+            return true;
     }
 };
