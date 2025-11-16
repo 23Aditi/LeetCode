@@ -5,7 +5,7 @@ public:
         int i = 0 , j = 1; // i-> slow and j-> fast
         while(j<n){
             if(nums[i] != nums[j]){
-                nums[i+1]=nums[j];
+                swap(nums[i+1],nums[j]);
                 i++;
             }
             j++;
