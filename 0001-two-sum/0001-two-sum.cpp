@@ -24,6 +24,10 @@ public:
         });
         int i = 0;
         int j = nums.size()-1;
+        /*
+        storing idexes of nums in idx and sorting it by value in nums.
+        Then using two pointer approach on idx.
+        */
         while(i<j){
             if(nums[idx[i]]+nums[idx[j]]==k){return {idx[i],idx[j]};}
             else if(nums[idx[i]]+nums[idx[j]]>k){j--;}
