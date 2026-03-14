@@ -9,21 +9,45 @@
  * };
  */
 class Solution {
+    ListNode* reverseLL(ListNode* head){
+        ListNode* temp = head;
+        ListNode* next = head->next;
+        ListNode* prev = nullptr;
+        while(next){
+            temp->next = prev;
+            prev = temp;
+            temp = next;
+            next = next->next;
+        }
+        temp->next = prev;
+        return temp;
+    }
 public:
     bool isPalindrome(ListNode* head) {
+        if(!head || !head->next) return true;
         ListNode* slow = head;
         ListNode* fast = head;
-        stack<int> st;
+        ListNode* prevSlow = nullptr;
+        ListNode* middle = nullptr;
         while(fast && fast->next){
-            st.push(slow->val);
+            prevSlow = slow;
             slow = slow->next;
             fast = fast->next->next;
         }
-        if(fast)slow = slow->next;
-        while(!st.empty() && slow){
-            if(st.top()!=slow->val){return false;}
-            st.pop();
-            slow=slow->next;
+        if(fast)slow=slow->next;
+        fast = head;
+        if(prevSlow)prevSlow->next = reverseLL(slow);
+        while(head){
+            cout << head->val << " ";
+            head=head->next;
+        }
+        cout << "fast : "<< fast->val;
+        cout << "prevSlow : "<< prevSlow->next->val;
+        middle =  prevSlow->next;
+        while(middle){
+            if(fast->val != middle->val){return false;}
+            middle = middle->next;
+            fast = fast->next;
         }
         return true;
     }
