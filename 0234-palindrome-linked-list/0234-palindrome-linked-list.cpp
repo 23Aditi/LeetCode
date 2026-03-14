@@ -37,12 +37,6 @@ public:
         if(fast)slow=slow->next;
         fast = head;
         if(prevSlow)prevSlow->next = reverseLL(slow);
-        while(head){
-            cout << head->val << " ";
-            head=head->next;
-        }
-        cout << "fast : "<< fast->val;
-        cout << "prevSlow : "<< prevSlow->next->val;
         middle =  prevSlow->next;
         while(middle){
             if(fast->val != middle->val){return false;}
