@@ -1,24 +1,25 @@
 class Solution {
+    int sumOfSqOfDigits(int n){
+        int num = 0;
+        while(n){
+            int r = n%10;
+            num += r*r;
+            n = n/10;
+        }
+        return num;
+    }
 public:
     bool isHappy(int n) {
-        int n1 = n;
-        unordered_map<int,int> um;
-        while(true){
-            int num = n1;
-            int sum = 0;
-            while(num!=0){
-                sum += (num%10)*(num%10);
-                num = num/10;
-            }
-            if(um.find(sum)!=um.end()){
-                return false;
-            }
-            if(sum==1){return true;}
-            
-            um[sum]=1;
-            n1 = sum;
-            
+        
+        int slow = sumOfSqOfDigits(n);
+        int fast = sumOfSqOfDigits(sumOfSqOfDigits(n));
+        while(slow != fast){
+            slow = sumOfSqOfDigits(slow);
+            fast = sumOfSqOfDigits(sumOfSqOfDigits(fast));
+            cout << "slow : "<< slow << " fast : "<< fast << "\n";
+            if(slow==1 || fast==1){return true;}
         }
+        if(slow==1 || fast==1){return true;}
         return false;
     }
 };
