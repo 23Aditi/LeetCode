@@ -19,6 +19,7 @@ public:
             slow = slow->next;
             fast = fast->next->next;
         }
+        if(fast)slow = slow->next;
         while(!st.empty() && slow){
             if(st.top()!=slow->val){return false;}
             st.pop();
