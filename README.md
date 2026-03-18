@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/23Aditi/LeetCode/tree/main/0141-linked-list-cycle/) | Easy |
 | [0202-happy-number](https://github.com/23Aditi/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/23Aditi/LeetCode/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0283-move-zeroes](https://github.com/23Aditi/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0392-is-subsequence](https://github.com/23Aditi/LeetCode/tree/main/0392-is-subsequence/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/23Aditi/LeetCode/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/23Aditi/LeetCode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0283-move-zeroes](https://github.com/23Aditi/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [1679-max-number-of-k-sum-pairs](https://github.com/23Aditi/LeetCode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
