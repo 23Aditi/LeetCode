@@ -21,6 +21,9 @@ public:
             even->next = odd->next;
             even = even->next;
         }
+        // why -> even and even->next 
+        // bez first dependency is on odd->next = even->next 
+        // so both even and even->next must exist
         odd->next = evenHead;
         return head;
     }
