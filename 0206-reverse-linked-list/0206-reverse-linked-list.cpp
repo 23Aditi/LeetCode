@@ -12,24 +12,16 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         if(!head || !head->next){return head;}
-        stack<ListNode*> s;
-        ListNode* temp = head;
-        while(temp){
-            s.push(temp);
-            temp = temp->next;
+        ListNode* curr = head;
+        ListNode* prev = nullptr;
+        ListNode* next = head->next;
+        while(next){
+            curr->next = prev;
+            prev = curr;
+            curr = next;
+            next = next->next;
         }
-        
-        ListNode* newHead = s.top();
-        ListNode* t = newHead;
-        s.pop();
-        ListNode* Next = nullptr;
-        while(t!=nullptr && !s.empty() ){
-            Next = s.top();
-            s.pop();
-            t->next = Next;
-            t = t->next;
-        }
-        t->next = nullptr;
-        return newHead;
+        curr->next = prev;
+        return curr;
     }
 };
