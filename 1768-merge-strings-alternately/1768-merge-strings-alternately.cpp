@@ -11,12 +11,8 @@ public:
             res+=word2[i];
             i++;
         }
-        if(n1>i){
-            for(int j = i ; j < n1 ; j++){res+=word1[j];}
-        }
-        if(n2>i){
-            for(int j = i ; j < n2 ; j++){res+=word2[j];}
-        }
+        res += word1.substr(i);
+        res += word2.substr(i);
         return res;
     }
 };
