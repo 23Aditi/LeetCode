@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0392-is-subsequence](https://github.com/23Aditi/LeetCode/tree/main/0392-is-subsequence/) | Easy |
+| [1071-greatest-common-divisor-of-strings](https://github.com/23Aditi/LeetCode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/23Aditi/LeetCode/tree/main/1456-maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/23Aditi/LeetCode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1768-merge-strings-alternately](https://github.com/23Aditi/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0202-happy-number](https://github.com/23Aditi/LeetCode/tree/main/0202-happy-number/) | Easy |
+| [1071-greatest-common-divisor-of-strings](https://github.com/23Aditi/LeetCode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
