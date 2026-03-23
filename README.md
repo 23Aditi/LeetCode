@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/23Aditi/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
 | [0283-move-zeroes](https://github.com/23Aditi/LeetCode/tree/main/0283-move-zeroes/) | Easy |
+| [0605-can-place-flowers](https://github.com/23Aditi/LeetCode/tree/main/0605-can-place-flowers/) | Easy |
 | [0643-maximum-average-subarray-i](https://github.com/23Aditi/LeetCode/tree/main/0643-maximum-average-subarray-i/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/23Aditi/LeetCode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1207-unique-number-of-occurrences](https://github.com/23Aditi/LeetCode/tree/main/1207-unique-number-of-occurrences/) | Easy |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0011-container-with-most-water](https://github.com/23Aditi/LeetCode/tree/main/0011-container-with-most-water/) | Medium |
+| [0605-can-place-flowers](https://github.com/23Aditi/LeetCode/tree/main/0605-can-place-flowers/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
