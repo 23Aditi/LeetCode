@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0338-counting-bits](https://github.com/23Aditi/LeetCode/tree/main/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/23Aditi/LeetCode/tree/main/0392-is-subsequence/) | Easy |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/23Aditi/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
 ## Array
@@ -175,4 +176,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0933-number-of-recent-calls](https://github.com/23Aditi/LeetCode/tree/main/0933-number-of-recent-calls/) | Easy |
+## Bit Manipulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0338-counting-bits](https://github.com/23Aditi/LeetCode/tree/main/0338-counting-bits/) | Easy |
 <!---LeetCode Topics End-->
