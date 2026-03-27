@@ -180,4 +180,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0338-counting-bits](https://github.com/23Aditi/LeetCode/tree/main/0338-counting-bits/) | Easy |
+| [1318-minimum-flips-to-make-a-or-b-equal-to-c](https://github.com/23Aditi/LeetCode/tree/main/1318-minimum-flips-to-make-a-or-b-equal-to-c/) | Medium |
 <!---LeetCode Topics End-->
