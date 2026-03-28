@@ -1,9 +1,9 @@
 class Solution {
-    int BS(vector<int> &potions , int k, int l , int h,  long long  target){
+    int BS(vector<int> &potions , int k, int l , int h, int target){
         int ans = -1;
         while(l<=h){
             int mid = l + (h-l)/2;
-            if(1LL*potions[mid]*k>=target){
+            if(potions[mid]*k>=target){
                 ans = mid;
                 h = mid-1;
             }else{
@@ -19,7 +19,7 @@ public:
         sort(potions.begin(),potions.end());
         vector<int> result;
         for(int i = 0 ; i < n ; i++){
-            int x = BS(potions,spells[i],0,m-1,success);
+            int x = BS(potions,spells[i],0,m,success);
             if(x==-1){result.push_back(0);}
             else{result.push_back(m-x);}
         }
