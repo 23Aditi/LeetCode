@@ -4,7 +4,7 @@ public:
         priority_queue<int,vector<int>, greater<int>> pq; // min heap -> smallest on top
         for(auto x : nums){
             pq.push(x);
-            if(pq.size()>k)pq.pop(); // onl
+            if(pq.size()>k)pq.pop(); // only largest k elements remain 
         }
         return pq.top();
     }
