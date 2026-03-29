@@ -147,12 +147,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/23Aditi/LeetCode/tree/main/0872-leaf-similar-trees/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
@@ -208,4 +210,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2336-smallest-number-in-infinite-set](https://github.com/23Aditi/LeetCode/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 <!---LeetCode Topics End-->
