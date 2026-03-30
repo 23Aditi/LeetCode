@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/23Aditi/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/23Aditi/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0872-leaf-similar-trees](https://github.com/23Aditi/LeetCode/tree/main/0872-leaf-similar-trees/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/23Aditi/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0547-number-of-provinces](https://github.com/23Aditi/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0872-leaf-similar-trees](https://github.com/23Aditi/LeetCode/tree/main/0872-leaf-similar-trees/) | Easy |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/23Aditi/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0547-number-of-provinces](https://github.com/23Aditi/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
@@ -162,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/0104-maximum-depth-of-binary-tree/) | Easy |
+| [0199-binary-tree-right-side-view](https://github.com/23Aditi/LeetCode/tree/main/0199-binary-tree-right-side-view/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/23Aditi/LeetCode/tree/main/0700-search-in-a-binary-search-tree/) | Easy |
 | [0872-leaf-similar-trees](https://github.com/23Aditi/LeetCode/tree/main/0872-leaf-similar-trees/) | Easy |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
