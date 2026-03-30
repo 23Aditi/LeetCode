@@ -10,18 +10,18 @@
  * };
  */
 class Solution {
-    void rightView(TreeNode* node,int level, vector<int>& vec){
-        if(!node) return;
-        if(level==vec.size()){
-            vec.push_back(node->val);
+    void inorder(TreeNode* root, int depth , vector<int>& result){
+        if(!root) return;
+        if(result.size()==depth){
+            result.push_back(root->val);
         }
-        rightView(node->right,level+1,vec);
-        rightView(node->left,level+1,vec);
+        inorder(root->right,depth+1,result);
+        inorder(root->left,depth+1,result);
     }
 public:
     vector<int> rightSideView(TreeNode* root) {
-        vector<int> vec;
-        rightView(root,0,vec);
-        return vec;
+        vector<int> result;
+        inorder(root,0,result);
+        return result;
     }
 };
