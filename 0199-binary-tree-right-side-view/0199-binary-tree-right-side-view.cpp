@@ -18,10 +18,28 @@ class Solution {
         inorder(root->right,depth+1,result);
         inorder(root->left,depth+1,result);
     }
+    void levelOrder(TreeNode* root, vector<int>& result){
+        queue<TreeNode*> q;
+        q.push(root);
+        
+        while(!q.empty()){
+            int n = q.size();
+            for(int i = 0 ; i < n ; i++){
+                TreeNode* node = q.front();
+                q.pop();
+                if(node->left){q.push(node->left);}
+                if(node->right){q.push(node->right);}
+                if(i==n-1){
+                    result.push_back(node->val);
+                }
+            }
+        }
+    }
 public:
     vector<int> rightSideView(TreeNode* root) {
         vector<int> result;
-        inorder(root,0,result);
+        if(!root){return result;}
+        levelOrder(root,result);
         return result;
     }
 };
