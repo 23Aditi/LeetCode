@@ -1,15 +1,13 @@
 class Solution {
 public:
     int tribonacci(int n) {
-        vector<int> dp(n+1);
-        if(n==0 || n==1){return n;}
-        if(n==2){return 1;}
-        dp[0]=0;
-        dp[1]=1;
-        dp[2]=1;
-        for(int i = 3 ; i <= n ; i++){
-            dp[i] = dp[i-1] + dp[i-2]+dp[i-3];
+        vector<int> vec(n+1,0);
+        if(n<1){return 0;}
+        if(n<2) return 1;
+        vec[1]=1; vec[2] = 1;
+        for(int i = 3 ; i <=n ; i++){
+            vec[i] = vec[i-1]+ vec[i-2]+ vec[i-3];
         }
-        return dp[n];
+        return vec[n];
     }
 };
