@@ -1,20 +1,14 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string s1;
         int n = s.size();
-        for(int i = 0 ; i < n ; i++){
-            if(isalpha(s[i])){
-                s1+=tolower(s[i]);
-            }
-        }
-        int n1 = s1.size();
-        cout << s1 << endl;
-        int i = 0 , j = n1-1;
-        //if(n1==1)return false;
+        int i = 0;
+        int j = n-1;
         while(i<j){
-            if(s1[i]!=s1[j]) return false;
-            i++; j--;
+            while( i<j && !isalnum(s[i])){i++;}
+            while(i<j && !isalnum(s[j])){j--;}
+            if(tolower(s[i])!=tolower(s[j])){return false;}
+            i++;j--;
         }
         return true;
     }
