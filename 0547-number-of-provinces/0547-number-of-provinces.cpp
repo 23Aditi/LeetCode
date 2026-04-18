@@ -21,12 +21,11 @@ public:
         int n = isConnected.size();
         vector<int> visited(n,0);
         for(int i = 0 ; i < n ; i++){
-            for(int j = 0  ; j <n ; j++){
-                if(isConnected[i][j] && !visited[i]){
-                    bfs(isConnected,visited,i);
-                    ct++;
-                }
+            if(!visited[i]){
+                bfs(isConnected,visited,i);
+                ct++;
             }
+            
         }
         return ct;
     }
