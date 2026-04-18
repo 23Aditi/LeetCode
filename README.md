@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/23Aditi/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/23Aditi/LeetCode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/23Aditi/LeetCode/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [3783-mirror-distance-of-an-integer](https://github.com/23Aditi/LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
