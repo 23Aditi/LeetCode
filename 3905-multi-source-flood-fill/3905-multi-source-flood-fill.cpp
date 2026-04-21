@@ -2,6 +2,7 @@ class Solution {
 public:
     vector<vector<int>> colorGrid(int n, int m, vector<vector<int>>& sources) {
         vector<vector<int>> grid(n,vector<int>(m,0));
+        // multi sources BFS
         // We sort so that when multiple colors reach a cell at the same time, the larger color wins or colors first.
         if(sources.size()<1) return grid;
         if(sources.size()==1){
