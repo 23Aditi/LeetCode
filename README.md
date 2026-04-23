@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-find-the-difference-of-two-arrays](https://github.com/23Aditi/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2336-smallest-number-in-infinite-set](https://github.com/23Aditi/LeetCode/tree/main/2336-smallest-number-in-infinite-set/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/23Aditi/LeetCode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
+| [2615-sum-of-distances](https://github.com/23Aditi/LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2215-find-the-difference-of-two-arrays](https://github.com/23Aditi/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/23Aditi/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/23Aditi/LeetCode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
+| [2615-sum-of-distances](https://github.com/23Aditi/LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/23Aditi/LeetCode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/23Aditi/LeetCode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/23Aditi/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
+| [2615-sum-of-distances](https://github.com/23Aditi/LeetCode/tree/main/2615-sum-of-distances/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
