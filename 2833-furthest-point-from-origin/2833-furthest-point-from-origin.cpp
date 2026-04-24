@@ -4,7 +4,7 @@ public:
         int n = moves.size();
         int ctL = count(moves.begin(),moves.end(),'L');
         int ctR = count(moves.begin(),moves.end(),'R');
-        int ct_ = count(moves.begin(),moves.end(),'_');
+        int ct_ = n - ctL - ctR;
         if(!ctL && !ctR){return ct_;}
         if(!ctL){return ct_+ctR;}
         if(!ctR){return ct_+ctL;}
