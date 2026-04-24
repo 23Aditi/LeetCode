@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1768-merge-strings-alternately](https://github.com/23Aditi/LeetCode/tree/main/1768-merge-strings-alternately/) | Easy |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/23Aditi/LeetCode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/23Aditi/LeetCode/tree/main/2390-removing-stars-from-a-string/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/23Aditi/LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1657-determine-if-two-strings-are-close](https://github.com/23Aditi/LeetCode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
+| [2833-furthest-point-from-origin](https://github.com/23Aditi/LeetCode/tree/main/2833-furthest-point-from-origin/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
