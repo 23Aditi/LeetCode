@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1207-unique-number-of-occurrences](https://github.com/23Aditi/LeetCode/tree/main/1207-unique-number-of-occurrences/) | Easy |
 | [1431-kids-with-the-greatest-number-of-candies](https://github.com/23Aditi/LeetCode/tree/main/1431-kids-with-the-greatest-number-of-candies/) | Easy |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/23Aditi/LeetCode/tree/main/1493-longest-subarray-of-1s-after-deleting-one-element/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/23Aditi/LeetCode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/23Aditi/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [2215-find-the-difference-of-two-arrays](https://github.com/23Aditi/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0872-leaf-similar-trees](https://github.com/23Aditi/LeetCode/tree/main/0872-leaf-similar-trees/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -186,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/23Aditi/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/23Aditi/LeetCode/tree/main/0841-keys-and-rooms/) | Medium |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/23Aditi/LeetCode/tree/main/1448-count-good-nodes-in-binary-tree/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -207,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/23Aditi/LeetCode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -254,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/23Aditi/LeetCode/tree/main/0547-number-of-provinces/) | Medium |
+| [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
