@@ -1,6 +1,11 @@
 class Solution {
 public:
     int minOperations(vector<vector<int>>& grid, int x) {
+        // TWO QUES TO ASK : 
+        // Q1) What is a clear cut rejection case when i will return -1 
+        // Answer : When the mod of elements of grid is not same then no matter how many operations we perform we cannot make them equal.
+        // Q2) Which element should i convert them into as now i know i can make them eq
+        // Answer : Sort it and choose median for minimum no of operations
         int n = grid.size();
         int m = grid[0].size();
         int opct1 = 0, opct2=0;
