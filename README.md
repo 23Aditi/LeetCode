@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/23Aditi/LeetCode/tree/main/0202-happy-number/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/23Aditi/LeetCode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/23Aditi/LeetCode/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/23Aditi/LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3783-mirror-distance-of-an-integer](https://github.com/23Aditi/LeetCode/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/23Aditi/LeetCode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/23Aditi/LeetCode/tree/main/1732-find-the-highest-altitude/) | Easy |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/23Aditi/LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2215-find-the-difference-of-two-arrays](https://github.com/23Aditi/LeetCode/tree/main/2215-find-the-difference-of-two-arrays/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/23Aditi/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/23Aditi/LeetCode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
@@ -118,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/23Aditi/LeetCode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [1657-determine-if-two-strings-are-close](https://github.com/23Aditi/LeetCode/tree/main/1657-determine-if-two-strings-are-close/) | Medium |
 | [1679-max-number-of-k-sum-pairs](https://github.com/23Aditi/LeetCode/tree/main/1679-max-number-of-k-sum-pairs/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/23Aditi/LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/23Aditi/LeetCode/tree/main/2300-successful-pairs-of-spells-and-potions/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -211,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1559-detect-cycles-in-2d-grid](https://github.com/23Aditi/LeetCode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/23Aditi/LeetCode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2352-equal-row-and-column-pairs](https://github.com/23Aditi/LeetCode/tree/main/2352-equal-row-and-column-pairs/) | Medium |
 ## Design
 | Problem Name | Difficulty |
