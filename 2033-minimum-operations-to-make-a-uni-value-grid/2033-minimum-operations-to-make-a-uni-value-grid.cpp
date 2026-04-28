@@ -17,7 +17,6 @@ public:
         }
         int target1 = vec[vec.size()/2];
         int target2 = vec[(vec.size()-1)/2];
-        cout << target1 <<"    " << target2<< endl;
         for(int i =  0 ; i < vec.size(); i++){
             opct1 += ((abs(vec[i]-target1))/x);
             opct2 += ((abs(vec[i]-target2))/x);
