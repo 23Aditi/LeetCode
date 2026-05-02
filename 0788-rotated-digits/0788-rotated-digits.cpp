@@ -12,10 +12,10 @@ public:
                 dp[i]=-1; // 33 , 31 , 41 , 42
             }
             else if(dp[prefix]==1 || vec[last]==1){
-                dp[i]=1;
+                dp[i]=1; // 22 , 20 , 12 
                 ct++;
             }else{
-                dp[i]=0;
+                dp[i]=0; // 10 , 11 ,88 , 80 
             }
         }
         return ct;
