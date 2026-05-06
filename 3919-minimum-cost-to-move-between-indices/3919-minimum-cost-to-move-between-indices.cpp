@@ -13,6 +13,8 @@ public:
                 int leftDiff = nums[i]-nums[i-1];
                 int rightDiff = nums[i+1] - nums[i];
                 if(rightDiff<leftDiff){cost=1;}
+                //If both adjacent indices are equally close, choose the smaller index.
+                // so for rightDiff == leftDiff we need to pay cost to move to right!
                 else{cost=rightDiff;}
             }
             leftToRight[i+1]= leftToRight[i]+cost;
@@ -24,6 +26,10 @@ public:
                 int leftDiff = nums[i]-nums[i-1];
                 int rightDiff = nums[i+1]-nums[i];
                 if(leftDiff<=rightDiff){cost=1;}
+                // but here we are coming from right to left
+                // so even if both are equally close we have to choose hthe smaller one
+                //i.e left one for cost 1
+                //If both adjacent indices are equally close, choose the smaller index.
                 else{cost = leftDiff;}
             }
             rightToLeft[i-1]= rightToLeft[i]+cost;
